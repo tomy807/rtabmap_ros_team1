@@ -38,7 +38,7 @@
   <arg name="scan_cloud_topic"        default="/scan_cloud"/>
 
   <arg name="visual_odometry"         default="true"/>          <!-- Generate visual odometry -->
-  <arg name="odom_topic"              default="/odom"/>         <!-- Odometry topic used if visual_odometry is false -->
+  <arg name="odom_topic"              default="/carla/ego_vehicle/odometry"/>         <!-- Odometry topic used if visual_odometry is false -->
   <arg name="odom_frame_id"           default=""/>              <!-- If set, TF is used to get odometry instead of the topic -->
 
   <arg name="namespace"               default="rtabmap"/>
